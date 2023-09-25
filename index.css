@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 10pt;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 18pt;
+}
+
+p {
+    font-size: 10pt;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+/* Add underlines under major headings */
+h2 {
+    border-bottom: 1px solid #000;
+}
+
+/* Style for specific sections */
+/* Highlights of Qualifications */
+#highlights ul {
+    padding-left: 20px;
+}
+
+/* Technical Qualifications */
+#tech-qualifications h3 {
+    margin-top: 20px;
+}
+
+/* Projects */
+#projects h3 {
+    margin-top: 20px;
+}
+
+/* Research and Presentations */
+#research-presentations h3 {
+    margin-top: 20px;
+}
+
+/* Experience */
+#experience h3 {
+    margin-top: 20px;
+}
+
+/* Honors and Awards */
+#honors-awards ul {
+    padding-left: 20px;
+}
+
+/* Language Skills */
+#language-skills ul {
+    padding-left: 20px;
+}
